@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(211, 211, 231);
+    color: rgb(34, 31, 31);
+    font-family: 'Poppins', sans-serif !important;
+    height: 300vh;
+}
+
+.navbar {
+    background-color: blueviolet;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.text-white{
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(173, 173, 219);
+    font-weight: 20px;
+    font-size: 1.22rem;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+/* .firstSection > div {
+    width: 30%;
+} */
+
+.leftSection {
+    font-size: 2em;
+    margin: 44px;
+}
+
+.rightSection img {
+    width: 60vh;
+    /* margin: 20px 0; */
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.text-gray {
+    color: gray;
+}
+
+main hr {
+    border: 0;
+    background: #8d8eb9;
+    height: 2.2px;
+    margin: 40px 84px;
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    /* height: 70vh; */
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    display: flex;
+    background: blueviolet;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.secondSection .box .vertical {
+    height: 13vh;
+    width: 1px;
+    background: blueviolet;
+    margin: 0 128px;
+}
+
+.btn-cv {
+    padding: 12px;
+    background: blueviolet;
+    color: white;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    border-radius: 11px;
+    border: 2px solid rgb(211, 211, 231);;
+    cursor: pointer;
+}
+
+.btn-cv:hover{
+    font-size: 20.2px;
+    font-weight: 20px;
+
+}
+
+.btn-github {
+    padding: 12px;
+    background: white;
+    color: blueviolet;
+    border: 1.99px solid darkslategray;
+    font-size: 20px;
+    border-radius: 11px;
+    /* border: 2px solid darkslategray; */
+    cursor: pointer;
+}
+
+.btn-github a{
+    text-decoration: none;
+}
+
+
+.btn-github:hover{
+    font-size: 20.2px;
+    font-weight: 20px;
+
+}
+
+.img-top1 {
+    width: 23px;
+    position: relative;
+    top: -30px;
+    right: 10px;
+}
+
+.img-top2 {
+    width: 23px;
+    position: relative;
+    top: -30px;
+    right: 10px;
+}
+
+.img-top3 {
+    width: 35px;
+    position: relative;
+    top: -38px;
+    right: 16.6px;
+}
+
+.img-top4 {
+    width: 35px;
+    position: relative;
+    top: -38px;
+    right: 16.6px;
+}
+
+.vertical-title-1 {
+    position: relative;
+    top: 60px;
+    right: 16px;
+}
+
+.vertical-title-2 {
+    position: relative;
+    top: 60px;
+    right: 16px;
+}
+
+.vertical-title-3 {
+    position: relative;
+    top: 50px;
+    right: 16px;
+}
+
+.vertical-title-4 {
+    position: relative;
+    top: 50px;
+    right: 16px;
+}
+
+.vertical-desc-1 {
+    position: relative;
+    top: 65px;
+    right: 17px;
+    width: 8vw;
+    color: darkslategray;
+    font-size: 13px;
+}
+
+.vertical-desc-2 {
+    position: relative;
+    top: 65px;
+    right: 17px;
+    width: 8vw;
+    color: darkslategray;
+    font-size: 13px;
+}
+
+.vertical-desc-3 {
+    position: relative;
+    top: 55px;
+    right: 17px;
+    width: 8vw;
+    color: darkslategray;
+    font-size: 13px;
+}
+
+.vertical-desc-4 {
+    position: relative;
+    top: 55px;
+    right: 17px;
+    width: 8vw;
+    color: darkslategray;
+    font-size: 13px;
+}
+
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-name {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .projects > div {
+    width: calc(50% - 20px); /* Adjusted the value to increase space */
+    height: 250px;
+    margin-bottom: 40px; /* Increased the margin-bottom value */
+    padding: 10px;
+    border: 1px solid gray;
+    max-width: 400px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .projects > div:hover {
+    background-color: lightgray;
+  }
+  
+  .projects > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .projects > div > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in;
+  }
+  
+  .projects > div:hover > a > img {
+    transform: scale(1.1);
+  }
+  
+  .project-name {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  /* .aboveThird{
+    margin-top: 200px;
+  } */
+
+  .thirdSection{
+    margin-top: 23px;
+  }
+
+  .thirdSection  {
+    /* font-size: 1.9rem; */
+    max-width: 80vw;
+    margin: 0 auto; /* Add this line */
+    /* text-align: center; */
+  }
+
+  .thirdSection h1{
+    font-size: 1.9rem;
+  }
+  
+
+ .thirdSection input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.thirdSection input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.thirdSection input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.thirdSection .container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+  
+.top{
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+  footer {
+    background-color: blueviolet;
+    color: white;
+    /* position: relative; */
+    /* top: 0; Adjusted the top value to remove overlap */
+  }
+    
+  
+  .footer li {
+    list-style: none;
+  }
+  
+  .footer li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-rights {
+    text-align: center;
+    color: white;
+  }
+  
+
+#element {
+    color: blueviolet;
+}
+
+.benefit1 {
+  /* width: 278px; */
+  height: 288px;
+  box-shadow: rgba(0, 0, 0, 0.15) 15px 15px 15px;
+  border-radius: 12.3556px;
+  /* border: 1px solid black; */
+}
+
+.benefitText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.3556px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.secondSection .container{
+  padding: 29px 3px;
+}
+
+.benefitText{
+  font-size: 1rem;
+}

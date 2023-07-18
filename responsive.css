@@ -1,0 +1,30 @@
+
+@media (max-width: 1000px) {
+
+   .firstSection{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   }
+    
+  }
+  
+  
+  @media (max-width: 1300px) {
+
+    .secondSection{
+        /* height: 116vh; */
+    }
+     
+   }
+  @media (max-width: 800px) {
+
+    .secondSection{
+        /* height: 156vh; */
+    }
+     
+   }
+  
+
+  
+  
